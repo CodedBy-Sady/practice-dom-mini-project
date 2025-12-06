@@ -21,6 +21,9 @@ act1.addEventListener("click", ()=>{
     e.style.backgroundColor=randomcolor();
     act1.style.backgroundColor=randomcolor();
     act1.style.color=randomcolor();
+
+    document.querySelector("body").style.backgroundColor=randomcolor();
+
 });
 })
 
@@ -31,6 +34,7 @@ act2.addEventListener("dblclick", ()=>{
     e.style.backgroundColor=randomcolor();
     act2.style.backgroundColor=randomcolor();
     act2.style.color=randomcolor();
+    document.querySelector("body").style.backgroundColor=randomcolor();
 });
 })
 
@@ -42,6 +46,7 @@ act3.addEventListener("mousedown", ()=>{
     e.style.backgroundColor=randomcolor();
     act3.style.backgroundColor=randomcolor();
     act3.style.color=randomcolor();
+    document.querySelector("body").style.backgroundColor=randomcolor();
 });
 })
 
@@ -64,6 +69,7 @@ act5.addEventListener("mousemove", ()=>{
     e.style.backgroundColor=randomcolor();
     act5.style.backgroundColor=randomcolor();
     act5.style.color=randomcolor();
+    document.querySelector("body").style.backgroundColor=randomcolor();
 });
 })
 
